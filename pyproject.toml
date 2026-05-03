@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "desktop-rescue"
+version = "0.1.0"
+description = "A safe Windows Desktop organizer with dry-run, reports, and undo support."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+desktop-rescue = "desktop_rescue.cli:main"
